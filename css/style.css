@@ -17,7 +17,7 @@ body {
   font-size: 15px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 992px) {
     body {
       font-size: 16px; } }
 
@@ -807,6 +807,14 @@ body.offcanvas {
       background: #4054b2; }
     .progress-bar.color-6 span {
       color: #4054b2; }
+    .progress-bar.color-7:after {
+      background: #57c5ad; }
+    .progress-bar.color-7 span {
+      color: #57c5ad; }
+    .progress-bar.color-8:after {
+      background: #1d6c91; }
+    .progress-bar.color-8 span {
+      color: hsl(199, 66%, 38%); }
 
 .colorlib-feature {
   text-align: left;
